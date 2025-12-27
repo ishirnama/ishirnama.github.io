@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Ishir Nama"
   pronouns         : "He/Him" 
-  bio              : "Computer Science and Artificial Intelligence at the University of Edinburgh"
-  location         : "Earth"
+  bio              : "BSc Computer Science and Artificial Intelligence student at the University of Edinburgh"
+  location         : "Edinburgh, UK"
   employer         : "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "ishirnama@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "ishir-nama-2262ab291/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
