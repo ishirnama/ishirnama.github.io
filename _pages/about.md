@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ishir Nama | Machine Learning & Data Analysis"
+title: "Machine Learning & Data Analysis"
 author_profile: true
 redirect_from: 
   - /about/
