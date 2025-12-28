@@ -2,63 +2,90 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+author_profile: false
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**University of Edinburgh**  
+*BSc Artificial Intelligence and Computer Science*  
+September 2025 – November 2029  
+- Current coursework average: **97.3%** (assessed to date)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Dartford Grammar School**  
+*International Baccalaureate Diploma*  
+September 2023 – May 2025  
+- Awarded **32 points overall**
+- Higher Level subjects: Computer Science, Physics, Mathematics AA
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Skills
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Programming:**  
+Python, Java, C, Haskell, SQL
+
+**Data Analysis & Machine Learning:**  
+Pandas, NumPy, SciPy, SymPy, Matplotlib, Seaborn, xarray, Scikit-learn, OpenCV
+
+**Mathematics:**  
+Linear Algebra, Calculus, Probability, Statistics, Mathematical Modelling
+
+**Tools:**  
+Git, GitHub, VS Code, Excel, PostgreSQL
+
+---
+
+## Projects
+
+### Large-Scale Time-Series Weather Data Analysis & Forecasting
+- Analysed large-scale real-world time-series data using Pandas, xarray, NumPy, and Matplotlib.
+- Built and evaluated regression models (polynomial and neural networks) to forecast long-term trends, achieving **R² values up to 0.88**.
+
+### User Behaviour & Demand Pattern Analysis (Group Project)
+- Analysed time-stamped usage data to identify daily demand patterns and peak usage periods for Voi bikes.
+- Provided data-driven insights to inform improved resource allocation strategies.
+
+### Musical Genre Classification with Machine Learning
+- Built a logistic regression classifier using VGGish embeddings to distinguish between musical genres.
+- Used Librosa, Soundfile, NumPy, Pandas, and Scikit-learn.
+- [Paper (PDF)](https://github.com/ishirnama/ML-approaches-to-musical-genre-classification/blob/main/ML_approach_to_musical_genre_classification.pdf)
+
+---
+
+## Research & Posters
+
+### Invariant Mass of the Z₀ Boson (IRIS Big Data ATLAS Project)
+- Group research project analysing simulated Large Hadron Collider data from CERN.
+- Reconstructed the invariant mass of the Z₀ boson and modelled results using a relativistic Breit–Wigner distribution.
+- Produced and presented an academic scientific poster.
+
+---
+
+## Work Experience
+
+- **Alan Turing Institute – Summer Programme (AI & ML)**, August 2024  
+- **Fujitsu – Quantum Computing in Industry (Online Experience)**, May 2024 – June 2024  
+- **Springpod – Technology On-Demand (Web & Software Development)**, July 2023  
+- **Computer Science Open Day Representative**, Dartford Grammar School, November 2023  
+
+---
+
+## Activities & Achievements
+
+- IRIS Big Data ATLAS programme participant
+- Senior Maths Challenge – **Bronze Medal**
+- Junior Maths Challenge – **Silver Medal**
+- FreeCodeCamp: *Deep Learning for Computer Vision with Python and TensorFlow*
+- Completed courses in Linear Algebra and Calculus for Machine Learning
+- Authored papers on:
+  - Machine learning approaches to musical genre classification
+  - Estimation of the damping coefficient in a damped harmonic oscillator  
+  - [SHM Paper (PDF)](https://github.com/ishirnama/SHM/blob/master/Maths_EE.pdf)
+
+---
+
+## Links
+
+- [GitHub](https://github.com/ishirnama)
+- [LinkedIn](https://www.linkedin.com/in/ishir-nama-2262ab291/)
