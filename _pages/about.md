@@ -1,16 +1,15 @@
 ---
 permalink: /
-title: "Machine Learning & Data Analysis"
+title: "Ishir's Portfolio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi I'm Ishir, a student at the University of Edinburgh studying Artificial Intelligence and Computer Science. I'm currently in my first year taking the [Introduction to Computation](http://www.drps.ed.ac.uk/23-24/dpt/cxinfr08025.htm) course. I have strong interests in **machine learning, data analysis, and computational physics**. Some of the projects I've workd on this year ranges over the domains of **Audio Machine Learning, Geophysical Data Analysis and User Behavior & Demand Analysis**.
-I have a strong background in Python and Java and am currently learning Haskell and C.
+Hi I'm Ishir, a student at the University of Edinburgh studying Artificial Intelligence and Computer Science. I'm currently in my first year taking the [Introduction to Computation](http://www.drps.ed.ac.uk/23-24/dpt/cxinfr08025.htm) course. I have strong interests in **machine learning, data analysis, and computational physics**. Some of the projects I've worked on this year ranges over the domains of **Audio Machine Learning, Geophysical Data Analysis and User Behavior & Demand Analysis**. I have 4 years of experience with Python.
 
-My work focuses on applying **statistical modelling, algorithmic thinking, and scientific computing** to complex, real-world datasets — particularly in fields like **Machine Learning, Physics, Music, Geography and Data Analysis**. I enjoy working at the intersection of theory and practice, combining mathematical reasoning with efficient implementation.
+My work focuses on applying **Mathematical modelling, ML algorithms, and Scientific computing** on complex real-world datasets (particularly in fields like **Machine Learning, Physics, Music, Geography and Data Analysis**). I enjoy working with big datasets of real-world data such as **weather, geographical, experimental and Time-series**.
 
 ---
 
