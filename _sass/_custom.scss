@@ -2,31 +2,35 @@
 
 .grid__wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
   margin: 2rem 0;
+  max-width: 100%;
 }
 
 .grid__item img {
   width: 100%;
+  height: auto;
   border-radius: 6px;
+  display: block;
 }
 
 .grid__caption {
   text-align: center;
   font-size: 0.85rem;
   margin-top: 0.4rem;
-  color: #555;
+  color: #ddd;
 }
 
-/* Responsive layout */
-@media (max-width: 900px) {
+/* Larger screens: allow 4 columns ONLY if space allows */
+@media (min-width: 1200px) {
   .grid__wrapper {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media (max-width: 500px) {
+/* Mobile */
+@media (max-width: 600px) {
   .grid__wrapper {
     grid-template-columns: 1fr;
   }
