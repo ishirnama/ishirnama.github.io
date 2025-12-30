@@ -9,6 +9,8 @@ redirect_from:
 
 Hi I'm Ishir, a student at the University of Edinburgh studying Artificial Intelligence and Computer Science. I'm currently in my first year taking the [Introduction to Computation](http://www.drps.ed.ac.uk/23-24/dpt/cxinfr08025.htm) course. I have strong interests in **machine learning, data analysis, and computational physics**. Some of the projects I've worked on this year ranges over the domains of **Audio Machine Learning, Geophysical Data Analysis and User Behavior & Demand Analysis**. I have 4 years of experience with Python.
 
+My work focuses on applying **Mathematical modelling, ML algorithms, and Scientific computing** on complex real-world datasets (particularly in fields like **Machine Learning, Physics, Music, Geography and Data Analysis**). I enjoy working with big datasets of real-world data such as **weather, geographical, experimental and Time-series**.
+
 <div class="grid__wrapper">
 
   <div class="grid__item">
@@ -32,9 +34,6 @@ Hi I'm Ishir, a student at the University of Edinburgh studying Artificial Intel
   </div>
 
 </div>
-
-
-My work focuses on applying **Mathematical modelling, ML algorithms, and Scientific computing** on complex real-world datasets (particularly in fields like **Machine Learning, Physics, Music, Geography and Data Analysis**). I enjoy working with big datasets of real-world data such as **weather, geographical, experimental and Time-series**.
 
 ---
 
