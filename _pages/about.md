@@ -11,7 +11,7 @@ Hi I'm Ishir, a student at the University of Edinburgh studying Artificial Intel
 
 My work focuses on applying **Mathematical modelling, ML algorithms, and Scientific computing** on complex real-world datasets (particularly in fields like **Machine Learning, Physics, Music, Geography and Data Analysis**). I enjoy working with big datasets of real-world data such as **weather, geographical, experimental and Time-series**.
 
-<h2>Selected Projects</h2>
+<h2>Project Previews</h2>
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 20px;">
 
