@@ -11,7 +11,37 @@ Hi I'm Ishir, a student at the University of Edinburgh studying Artificial Intel
 
 My work focuses on applying **Mathematical modelling, ML algorithms, and Scientific computing** on complex real-world datasets (particularly in fields like **Machine Learning, Physics, Music, Geography and Data Analysis**). I enjoy working with big datasets of real-world data such as **weather, geographical, experimental and Time-series**.
 
-<div class="grid__wrapper">
+<h2>Selected Projects</h2>
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 20px;">
+
+  <div>
+    <img src="/images/IRIS_results.png" style="width:100%; border-radius:8px;">
+    <p><strong>Invariant mass reconstruction of the Z boson</strong><br>
+    Relativistic reconstruction using simulated LHC collision data.</p>
+  </div>
+
+  <div>
+    <img src="/images/GDA_coursework.png" style="width:100%; border-radius:8px;">
+    <p><strong>Time-series weather forecasting with ML</strong><br>
+    Regression and neural network models on climate data.</p>
+  </div>
+
+  <div>
+    <img src="/images/IAML_coursework.png" style="width:100%; border-radius:8px;">
+    <p><strong>Musical genre classification using embeddings</strong><br>
+    Logistic regression on VGGish audio embeddings.</p>
+  </div>
+
+  <div>
+    <img src="/images/Maths_EE.png" style="width:100%; border-radius:8px;">
+    <p><strong>Early-stage quantum algorithm experiments</strong><br>
+    Exploratory simulations and independent study.</p>
+  </div>
+
+</div>
+
+<!-- <div class="grid__wrapper">
 
   <div class="grid__item">
     <img src="/images/IRIS_results.png" alt="Z boson invariant mass">
@@ -33,7 +63,7 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
     <p class="grid__caption">Early-stage quantum algorithm experiments</p>
   </div>
 
-</div>
+</div> -->
 
 ---
 
