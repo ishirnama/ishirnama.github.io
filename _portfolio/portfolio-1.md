@@ -16,7 +16,7 @@ This project uses data which the LHC (Lage Hadron Collider) generates by annihil
 After these collisions, we can observe certain patterns. For example, Z bosons typically have two main decay routes.
 Z bosons can decay into either two of four leptons (a lepton is an elementary particle of half-integer spin).
 
-![Two main decay routes of the Z boson](/images/fyenman_diagrams.png)
+![Two main decay routes of the Z boson](/images/feynman_diagrams.png)
 
 After each collision, the annihilations which have two or four leptons as decay products are recorded.
 Using the Energy-Momentum Relation ($E^2 = p^2c^2 + {m_0}^2c^2$) we can calculate the total energy of the collisions.
