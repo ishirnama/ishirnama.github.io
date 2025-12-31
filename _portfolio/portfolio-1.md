@@ -28,7 +28,7 @@ $$
 
 ## Results
 
-![Invariant mass plot](/images/IRIS_results.png)
+![Invariant mass plot](/images/histograms.png)
 
 As shown in the histogram above, the invariant mass of the Z boson is consistent with it's theoretical prediction.
 The In both Histograms, the peak is somewhere around 90 GeV which is very close to the theoretical prediction of 91.2 GeV.
