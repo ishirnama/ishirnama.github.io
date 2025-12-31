@@ -1,7 +1,37 @@
 ---
-title: "Scientific Poster : Finding The Invariant Mass Of The Z Boson"
-excerpt: "<br/><img src='/images/IRIS_poster.png'>"
+title: "Invariant Mass Reconstruction of the Z Boson"
 collection: portfolio
+permalink: /portfolio/z-boson/
+excerpt: "Reconstructing the Z₀ boson mass using simulated LHC collision data."
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## Overview
+
+This project analyses simulated proton–proton collision data to reconstruct
+the invariant mass distribution of the Z₀ boson using relativistic kinematics.
+
+## Physics Background
+
+The invariant mass is computed using:
+
+$$
+m = \sqrt{(E_1 + E_2)^2 - |\vec{p}_1 + \vec{p}_2|^2}
+$$
+
+## Methodology
+
+- Event selection
+- Four-momentum reconstruction
+- Histogramming and Breit–Wigner fitting
+
+## Results
+
+![Invariant mass plot](/images/IRIS_results.png)
+
+The reconstructed peak is consistent with the accepted Z boson mass.
+
+## Tools Used
+
+- Python, NumPy, Pandas
+- Matplotlib
+- CERN-inspired data formats
