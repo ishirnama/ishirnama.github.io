@@ -14,6 +14,8 @@ the invariant mass distribution of the Z₀ boson using relativistic kinematics.
 
 The invariant mass is computed using:
 
+![How invariant mass is computed](/images/invariant_mass_calculations.png)
+
 $$
 m = \sqrt{(E_1 + E_2)^2 - |\vec{p}_1 + \vec{p}_2|^2}
 $$
