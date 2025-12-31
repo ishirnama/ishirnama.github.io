@@ -19,7 +19,7 @@ Z bosons can decay into either two of four leptons (a lepton is an elementary pa
 ![Two main decay routes of the Z boson](/images/feynman_diagrams.png)
 
 After each collision, the annihilations which have two or four leptons as decay products are recorded.
-Using the Energy-Momentum Relation : $E^2 = p^2c^2 + m_0^2c^2$ we can calculate the total energy of the collisions.
+Using the Energy-Momentum Relation (E² = p²c² + m²c⁴) we can calculate the total energy of the collisions.
 Finally, we can compute the Z boson's invariant mass using the formula below.
 
 $$
