@@ -16,7 +16,7 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 20px;">
 
   <div>
-    <a href="/_portfolio/portfolio-1/">
+    <a href="/portfolio/portfolio-1/">
       <img src="/images/IRIS_results.png" style="width:100%; border-radius:8px;">
     </a>
     <p><strong>Finding the invariant mass of the Z boson</strong><br>
