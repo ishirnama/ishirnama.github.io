@@ -24,7 +24,9 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
   </div>
 
   <div>
-    <img src="/images/GDA_coursework.png" style="width:100%; border-radius:8px;">
+    <a href="/portfolio/portfolio-2/">
+      <img src="/images/GDA_coursework.png" style="width:100%; border-radius:8px;">
+    </a>
     <p><strong>Time-series weather forecasting with ML</strong><br>
     Regression and neural network models on climate data.</p>
   </div>
