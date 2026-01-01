@@ -1,5 +1,5 @@
 ---
-title: "Time-Serie Weather Forecasting"
+title: "Time-Series Weather Forecasting"
 collection: portfolio
 permalink: /portfolio/portfolio-2/
 excerpt: Data analysis for global average temperature anomalies"
