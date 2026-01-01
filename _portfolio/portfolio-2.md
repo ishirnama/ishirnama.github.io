@@ -7,4 +7,4 @@ excerpt: Data analysis for global average temperature anomalies"
 
 ## Time-Series Weather Forecasting
 
-[Using an MLP Regressor to predict temparature anomalies](/images/GDA_coursework.png)
+![Using an MLP Regressor to predict temparature anomalies](/images/GDA_coursework.png)
