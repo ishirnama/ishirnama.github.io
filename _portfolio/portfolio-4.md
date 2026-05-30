@@ -91,8 +91,6 @@ kNN achieved the highest accuracy of any model *without* embeddings, outperformi
 | Neural Network | 68.89% | **80.56%** |
 | K-Nearest Neighbors | **74.11%** | 77.67% |
 
-![Confusion matrix of the best-performing model (Neural Network with VGGish embeddings)](/images/IAML_coursework.png)
-
 ## Key Findings
 
 The most consistent trend across all models was the improvement from VGGish embeddings — typically around 20 percentage points. This highlights how critical feature extraction is in audio-based ML tasks: even a relatively simple model like logistic regression can reach nearly 80% accuracy when given well-structured input features.
