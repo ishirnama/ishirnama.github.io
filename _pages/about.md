@@ -47,12 +47,6 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
     Regression and neural network models on climate data.</p>
   </div>
 
-  <div>
-    <img src="/images/Maths_EE.png" style="width:100%; border-radius:8px;">
-    <p><strong>Early-stage quantum algorithm experiments</strong><br>
-    Exploratory simulations and independent study.</p>
-  </div>
-
 </div>
 
 ---
