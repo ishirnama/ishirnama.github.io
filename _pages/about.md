@@ -44,7 +44,9 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
   </div>
 
   <div>
-    <img src="/images/PONS_simulation.png" style="width:100%; border-radius:8px;">
+    <a href="/portfolio/portfolio-3/">
+      <img src="/images/PONS_simulation.png" style="width:100%; border-radius:8px;">
+    </a>
     <p><strong>N-Body Solar System Simulation</strong><br>
     OOP simulation comparing Beeman, Euler-Cromer, and Direct Euler integration methods.</p>
   </div>
