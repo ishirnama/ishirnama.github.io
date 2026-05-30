@@ -21,12 +21,12 @@ Three numerical integration methods were implemented and compared:
 
 **Euler-Cromer** is a small modification to Direct Euler — it updates velocity first, then uses the updated velocity to advance position. This change prevents energy from drifting away over time.
 
-**Beeman's method** uses both the current and previous timestep's accelerations to update position and velocity, making it more accurate and better at conserving energy.
+**Beeman's method** uses both the current and previous timestep's accelerations to update position and velocity, making it more accurate and better at conserving energy.\\
 
 $$
 \vec{r}(t+\delta t) = \vec{r}(t) + \vec{v}(t)\cdot\delta t + \frac{1}{6}[4\vec{a}(t) - \vec{a}(t-\delta t)]\cdot\delta t^2
 $$
-
+\\
 ## Experiment 1: Orbital Period Accuracy
 
 I ran the simulation over 25 years using Beeman integration and detected each planet's orbital period by tracking when its y-coordinate crossed from negative to positive. I then compared the results to NASA's published values.
