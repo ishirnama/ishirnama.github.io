@@ -39,31 +39,31 @@ I ran the simulation over 25 years using Beeman integration and detected each pl
 | Mars    | 1.881           | 1.881          | 0.01%  |
 | Jupiter | 11.862          | 11.823         | 0.33%  |
 
-All planets came in under 0.35% error. Jupiter's slightly higher error is likely because it only completes about 2 orbits in 25 years, giving fewer crossings to average over. Jupiter's large mass also means the fixed-Sun assumption introduces more error than it does for the inner planets — in reality its gravity causes the Sun to wobble around the system's barycentre.
+All planets came in under 0.35% error. Jupiter's slightly higher error is likely because it only completes about 2 orbits in 25 years, giving fewer crossings to average over. Jupiter's large mass also means the fixed-Sun assumption introduces more error than it does for the inner planets; in reality its gravity causes the Sun to wobble around the system's barycentre.
 
 ## Experiment 2: Energy Conservation
 
-The total mechanical energy of the system is $E = T + V$, where $T$ is kinetic energy and $V$ is gravitational potential energy. To measure how well each method conserves energy, I computed the RMS energy deviation $\delta E_\text{RMS}$ over 25 simulated years.
+The total mechanical energy of the system is E = T + V, where T is kinetic energy and $V$ is gravitational potential energy. To measure how well each method conserves energy, I computed the RMS energy deviation δEᵣₘₛ over 25 simulated years.
 
 ![Total energy vs time and RMS deviation for all three integration methods](/images/PONS_energy_methods.png)
 
 The results show a dramatic difference between methods:
 
-- **Beeman**: $\delta E_\text{RMS} \approx 0.40 \times 10^{-6}\ \text{M}_\oplus\text{AU}^2\text{yr}^{-2}$ — energy fluctuates around a stable value
-- **Euler-Cromer**: $\delta E_\text{RMS} \approx 1228 \times 10^{-6}$ — roughly 3,000× worse than Beeman
-- **Direct Euler**: $\delta E_\text{RMS} \approx 1.04 \times 10^7$ — energy increases monotonically throughout, about $10^{13}$× worse than Beeman
+- **Beeman**: δEᵣₘₛ ≈ 0.40×10⁻⁶ [M⊕ AU² yr⁻²] (energy fluctuates around a stable value)
+- **Euler-Cromer**: δEᵣₘₛ ≈ 1228×10⁻⁶ (roughly 3,000× worse than Beeman)
+- **Direct Euler**: δEᵣₘₛ ≈ 1.40×10⁷ (energy increases monotonically throughout, about 10¹³× worse than Beeman)
 
 Beeman's method performs so well because it is symplectic — over long periods, the total energy oscillates around the true value rather than drifting away from it.
 
-I also tested the effect of timestep on Beeman's energy conservation, using $dt = 0.001$, $0.0006$, and $0.0001$ years.
+I also tested the effect of timestep on Beeman's energy conservation, using dt = 0.001, 0.0006, and 0.0001 yr(s).
 
 ![Energy conservation for Beeman at three different timesteps](/images/PONS_energy_timestep.png)
 
-As the timestep decreases, the energy fluctuations shrink and $\delta E_\text{RMS}$ approaches zero. At $dt = 0.0001$ yr the total energy appears effectively constant throughout the simulation.
+As the timestep decreases, the energy fluctuations shrink and δEᵣₘₛ approaches zero. At dt = 0.0001 yr the total energy appears effectively constant throughout the simulation.
 
 ## Experiment 4: Planetary Alignment Detection
 
-I implemented a method that detects when all planets fall within a critical angle $\varphi$ of a common direction. At each timestep it computes each planet's angle relative to the x-axis, calculates a mean direction using unit vectors (to avoid wrapping errors near $\pm\pi$), and checks whether every planet's angular deviation from that mean is less than $\varphi$.
+I implemented a method that detects when all planets fall within a critical angle (φ) of a common direction. At each timestep it computes each planet's angle relative to the x-axis, calculates a mean direction using unit vectors (to avoid wrapping errors near ±π), and checks whether every planet's angular deviation from that mean is less than φ.
 
 $$
 \delta\theta_i = |\arctan2(\sin(\theta_i - \theta_\text{mean}),\ \cos(\theta_i - \theta_\text{mean}))| < \varphi
