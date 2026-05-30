@@ -12,12 +12,6 @@ author_profile: false
 September 2025 – November 2029  
 - Current coursework average: **97.3%** (assessed to date)
 
-**Dartford Grammar School**  
-*International Baccalaureate Diploma*  
-September 2023 – May 2025  
-- Awarded **32 points overall**
-- Higher Level subjects: Computer Science, Physics, Mathematics AA
-
 ---
 
 ## Skills
