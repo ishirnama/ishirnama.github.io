@@ -44,9 +44,7 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
   </div>
 
   <div>
-    <a href="https://github.com/ishirnama/PONS" target="_blank">
-      <img src="/images/PONS_simulation.png" style="width:100%; border-radius:8px;">
-    </a>
+    <img src="/images/PONS_simulation.png" style="width:100%; border-radius:8px;">
     <p><strong>N-Body Solar System Simulation</strong><br>
     OOP simulation comparing Beeman, Euler-Cromer, and Direct Euler integration methods.</p>
   </div>
