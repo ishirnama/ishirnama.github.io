@@ -24,6 +24,14 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
   </div>
 
   <div>
+    <a href="/portfolio/portfolio-3/">
+      <img src="/images/PONS_simulation.png" style="width:100%; border-radius:8px;">
+    </a>
+    <p><strong>N-Body Solar System Simulation</strong><br>
+    OOP simulation comparing Beeman, Euler-Cromer, and Direct Euler integration methods.</p>
+  </div>
+
+  <div>
     <a href="/portfolio/portfolio-2/">
       <img src="/images/GDA_coursework.png" style="width:100%; border-radius:8px;">
     </a>
@@ -32,8 +40,10 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
   </div>
 
   <div>
-    <img src="/images/IAML_coursework.png" style="width:100%; border-radius:8px;">
-    <p><strong>Musical genre classification using embeddings</strong><br>
+    <a href="/portfolio/portfolio-4/">
+      <img src="/images/IAML_coursework.png" style="width:100%; border-radius:8px;">
+    </a>
+    <p><strong> ML Stratergies for Musical genre classification using embeddings</strong><br>
     Logistic regression on VGGish audio embeddings.</p>
   </div>
 
@@ -41,14 +51,6 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
     <img src="/images/Maths_EE.png" style="width:100%; border-radius:8px;">
     <p><strong>Early-stage quantum algorithm experiments</strong><br>
     Exploratory simulations and independent study.</p>
-  </div>
-
-  <div>
-    <a href="/portfolio/portfolio-3/">
-      <img src="/images/PONS_simulation.png" style="width:100%; border-radius:8px;">
-    </a>
-    <p><strong>N-Body Solar System Simulation</strong><br>
-    OOP simulation comparing Beeman, Euler-Cromer, and Direct Euler integration methods.</p>
   </div>
 
 </div>
