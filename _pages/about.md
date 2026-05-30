@@ -43,31 +43,15 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
     Exploratory simulations and independent study.</p>
   </div>
 
+  <div>
+    <a href="https://github.com/ishirnama/PONS" target="_blank">
+      <img src="/images/PONS_simulation.png" style="width:100%; border-radius:8px;">
+    </a>
+    <p><strong>N-Body Solar System Simulation</strong><br>
+    OOP simulation comparing Beeman, Euler-Cromer, and Direct Euler integration methods.</p>
+  </div>
+
 </div>
-
-<!-- <div class="grid__wrapper">
-
-  <div class="grid__item">
-    <img src="/images/IRIS_results.png" alt="Z boson invariant mass">
-    <p class="grid__caption">Invariant mass reconstruction of the Z boson</p>
-  </div>
-
-  <div class="grid__item">
-    <img src="/images/GDA_coursework.png" alt="Weather forecasting">
-    <p class="grid__caption">Time-series weather forecasting with ML</p>
-  </div>
-
-  <div class="grid__item">
-    <img src="/images/IAML_courseworK.png" alt="Music classification">
-    <p class="grid__caption">Musical genre classification using embeddings</p>
-  </div>
-
-  <div class="grid__item">
-    <img src="/images/Maths_EE.png" alt="Quantum algorithms">
-    <p class="grid__caption">Early-stage quantum algorithm experiments</p>
-  </div>
-
-</div> -->
 
 ---
 
@@ -96,6 +80,11 @@ I am particularly interested in **interpretable models**, robust evaluation, and
 ---
 
 ## Selected Work
+
+### N-Body Solar System Simulation
+Built an OOP N-body simulation of the Solar System (Sun, Mercury, Venus, Earth, Mars, Jupiter) in Python, implementing three numerical integration methods: **Beeman, Euler-Cromer, and Direct Euler**. Tested accuracy against NASA orbital period data (all planets within 0.35% error) and measured energy conservation via RMS deviation. Beeman's method outperformed the others, with an RMS deviation roughly three orders of magnitude smaller than Direct Euler. Also implemented a planetary alignment detector, finding the first alignment within φ = 10° at t ≈ 145 years.  
+Tools used: Python, NumPy, Matplotlib.  
+→ [Code on GitHub](https://github.com/ishirnama/PONS)
 
 ### Large-Scale Weather Data Analysis & Forecasting  
 Analysed real-world time-series climate data and built predictive regression and neural network models to forecast long-term trends, achieving **R² scores up to 0.88**.
