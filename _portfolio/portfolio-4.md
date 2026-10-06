@@ -9,6 +9,8 @@ excerpt: "Training and comparing four machine learning models to classify music 
 
 This project explores the use of machine learning algorithms to classify music into genres. Music genre classification is used by streaming services like Spotify and YouTube Music to organise and recommend content. The goal was to train, evaluate, and compare four different ML models on the same dataset, and to investigate how using pre-trained audio embeddings affects each model's performance.
 
+The full code and the paper are available in the [project repository on GitHub](https://github.com/ishirnama/ML-approaches-to-musical-genre-classification).
+
 ## Dataset
 
 The dataset used is GTZAN, a widely-used benchmark for music genre classification containing 1,000 audio files across 10 genres (blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock), with 100 files per genre.
@@ -98,6 +100,27 @@ The most consistent trend across all models was the improvement from VGGish embe
 The two supervised learning models (NN and kNN) outperformed the others, which is expected — they can learn complex, non-linear boundaries between genres rather than relying on simplifying assumptions like conditional independence. Naive Bayes was the weakest real model for exactly this reason.
 
 Rock was consistently the hardest genre to classify across all models, likely because it shares tempo, instrumentation, and spectral characteristics with several other genres. Classical was the easiest, with its distinctive harmonic and dynamic profile making it stand out clearly in feature space.
+
+## Code & Repository
+
+The implementation is organised around the four models above, with a notebook for the raw hand-crafted features and a matching notebook for the VGGish-embedding version:
+
+| Model | Raw features | VGGish embeddings |
+|---|---|---|
+| Dummy baseline | `dummy.ipynb` | — |
+| Logistic regression | `logistic_regression.ipynb` | `logistic_regression_embeds.ipynb` |
+| Naive Bayes | `naive_bayes.ipynb` | `naive_bayes_embeds.ipynb` |
+| Neural network (MLP) | `neural_network.ipynb` | `neural_network_embeddings.ipynb` |
+| k-Nearest Neighbours | `kNN.ipynb` | `kNN embedding.ipynb` |
+
+**Shared utilities & pipeline:**
+
+- **`helpers.py`** — reusable functions behind every notebook: `extract_features()` builds the 14 time-averaged spectral features (mean & std of centroid, bandwidth, rolloff, flatness, contrast, zero-crossing rate and RMS) with Librosa; `clean()` resamples audio to 16 kHz, trims it into 5-second segments and skips corrupted files; `split()` performs the stratified 70/15/15 split; and `get_embeddings()` loads the saved VGGish vectors.
+- **`download.ipynb`** — pulls the GTZAN dataset via `kagglehub`.
+- **`embeddings.ipynb`** — loads Google's VGGish model from `torch.hub`, strips the final output layer, and exports the 128-dimensional embeddings used by the embedding notebooks.
+- **`main.ipynb`** — the data-prep pipeline that extracts the features, writes `time_av_features.csv`, and splits the data.
+- **`time_av_features.csv`** — the resulting pre-computed feature matrix (14 features + genre label) shared by the raw-feature notebooks.
+- **`requirements.txt`** — the project's Python dependencies.
 
 ## Tools Used
 
