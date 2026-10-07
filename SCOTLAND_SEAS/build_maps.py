@@ -243,8 +243,8 @@ with open(OUT_SEVERITY, "w", encoding="utf-8") as f:
     f.write(
         leaflet_html(
             "Plastic pollution severity on Scottish beaches",
-            "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-            "&copy; OpenStreetMap contributors &copy; CARTO",
+            "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            "&copy; OpenStreetMap contributors",
             "",
             sev_js,
             sev_legend,
