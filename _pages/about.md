@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi I'm Ishir, a student at the University of Edinburgh studying Artificial Intelligence and Computer Science. I'm currently in my first year taking the [Introduction to Computation](http://www.drps.ed.ac.uk/23-24/dpt/cxinfr08025.htm), [Object Oriented Programming](https://www.drps.ed.ac.uk/25-26/dpt/cxinfr08029.htm), [Linear Algebra 1](https://www.drps.ed.ac.uk/25-26/dpt/cxmath08079.htm), [Computer Simulation](https://www.drps.ed.ac.uk/25-26/dpt/cxphys08026.htm), [Programming Skills for Engineers 2](https://www.drps.ed.ac.uk/25-26/dpt/cxscee08014.htm) and [Geophysical Data Analysis](https://www.drps.ed.ac.uk/21-22/dpt/cxeasc08025.htm) courses. I have strong interests in **machine learning, data analysis, and computational physics**. Some of the projects I've worked on this year ranges over the domains of **Audio Machine Learning, Geophysical Data Analysis and User Behavior & Demand Analysis**. I have 4 years of experience with Python.
+Hi I'm Ishir, a student at the University of Edinburgh studying Artificial Intelligence and Computer Science. I'm currently in my first year taking the [Introduction to Computation](http://www.drps.ed.ac.uk/23-24/dpt/cxinfr08025.htm), [Object Oriented Programming](https://www.drps.ed.ac.uk/25-26/dpt/cxinfr08029.htm), [Linear Algebra 1](https://www.drps.ed.ac.uk/25-26/dpt/cxmath08079.htm), [Computer Simulation](https://www.drps.ed.ac.uk/25-26/dpt/cxphys08026.htm), [Programming Skills for Engineers 2](https://www.drps.ed.ac.uk/25-26/dpt/cxscee08014.htm) and [Geophysical Data Analysis](https://www.drps.ed.ac.uk/21-22/dpt/cxeasc08025.htm) courses. I have strong interests in **machine learning, data analysis, and computational physics**. Some of the projects I've worked on this year ranges over the domains of **Audio Machine Learning, Environmental Data Analysis and User Behavior & Demand Analysis**. I have 4 years of experience with Python.
 
 My work focuses on applying **Mathematical modelling, ML algorithms, and Scientific computing** on complex real-world datasets (particularly in fields like **Machine Learning, Physics, Music, Geography and Data Analysis**). I enjoy working with big datasets of real-world data such as **weather, geographical, experimental and Time-series**.
 
@@ -41,10 +41,10 @@ My work focuses on applying **Mathematical modelling, ML algorithms, and Scienti
   
   <div>
     <a href="/portfolio/portfolio-2/">
-      <img src="/images/GDA_coursework.png" style="width:100%; border-radius:8px;">
+      <img src="/images/scotland_severity_preview.png" style="width:100%; border-radius:8px;">
     </a>
-    <p><strong>Time-series weather forecasting with ML</strong><br>
-    Regression and neural network models on climate data.</p>
+    <p><strong>Plastic pollution severity mapping of Scottish beaches</strong><br>
+    A weighted severity score and interactive maps.</p>
   </div>
 
 </div>
@@ -82,8 +82,8 @@ Built an OOP N-body simulation of the Solar System (Sun, Mercury, Venus, Earth, 
 Tools used: Python, NumPy, Matplotlib.  
 → [Code on GitHub](https://github.com/ishirnama/PONS)
 
-### Large-Scale Weather Data Analysis & Forecasting  
-Analysed real-world time-series climate data and built predictive regression and neural network models to forecast long-term trends, achieving **R² scores up to 0.88**.
+### Plastic Pollution Severity Analysis of Scottish Beaches  
+Analysed SCOTLAND SEAS beach-clean data across 27 Scottish beaches, building a weighted severity score (category severity × material multiplier) and interactive Leaflet maps to visualise coastal plastic pollution.
 
 ### Musical Genre Classification with Machine Learning  
 Developed a logistic regression classifier using **VGGish embeddings** to distinguish musical genres.  

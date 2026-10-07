@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top 3 plastics per Scottish beach</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+html, body { height: 100%; margin: 0; }
+#map { height: 100%; width: 100%; }
+.legend { background: rgba(255,255,255,0.92); padding: 10px 12px; border-radius: 6px; box-shadow: 0 1px 5px rgba(0,0,0,.3); font: 12px/1.6 Helvetica, Arial, sans-serif; color: #222; }
+.legend .bar { width: 150px; height: 10px; border-radius: 2px; }
+.legend .labels { display: flex; justify-content: space-between; margin-top: 3px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="legend" style="position:absolute; bottom:20px; left:12px; z-index:1000;"><b>Top 3 plastics per beach</b><br>Click a marker to inspect.</div>
+<script>
+var map = L.map('map').setView([56.5, -4.0], 6);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '&copy; OpenStreetMap contributors' }).addTo(map);
+var data = [{"lat": 55.6256, "lon": -4.7497, "name": "Ardeer Beach", "items": [["X01_plastic_packagingDomestic", 75.5], ["X03_plastic_fragmentMed", 36.0], ["X02_plastic_packagingIndustrial", 32.0]]}, {"lat": 56.5184, "lon": -6.8842, "name": "Balephetrish Bay", "items": [["X03_plastic_fragmentMed", 7.5], ["X02_plastic_fishingnetSml", 2.5], ["X03_plastic_other", 1.5]]}, {"lat": 56.4776, "lon": -6.9771, "name": "Balephuil", "items": [["X02_plastic_fishingnetSml", 22.0], ["X02_plastic_RopeStringCordSml", 13.5], ["X03_plastic_fragmentMed", 12.0]]}, {"lat": 56.4826, "lon": -6.9774, "name": "Barrapoll", "items": [["X02_plastic_fishingnetSml", 105.5], ["X03_plastic_fragmentSml", 72.0], ["X03_plastic_fragmentMed", 48.0]]}, {"lat": 55.8745, "lon": -6.1168, "name": "Bunnahabhain", "items": [["X03_plastic_fragmentMed", 13.5], ["X02_plastic_RopeStringCordSml", 4.0], ["X03_plastic_other", 2.5]]}, {"lat": 56.5442, "lon": -6.7425, "name": "Caolas", "items": [["X02_plastic_fishingnetSml", 1.5], ["X01_plastic_shotgun", 1.0], ["X02_plastic_packagingIndustrial", 1.0]]}, {"lat": 55.3086, "lon": -5.6737, "name": "Carskey Bay", "items": [["X01_plastic_packagingDomestic", 1.5], ["X03_plastic_fragmentMed", 1.0]]}, {"lat": 56.4921, "lon": -6.8582, "name": "Crossapol", "items": [["X02_plastic_fishingnetSml", 14.5], ["X03_plastic_fragmentSml", 14.0], ["X03_plastic_fragmentMed", 7.5]]}, {"lat": 56.4485, "lon": -5.6593, "name": "Duart Bay ", "items": [["X02_plastic_tangledRope", 3.5], ["X02_plastic_stringDollyRope", 2.0], ["X02_plastic_packagingIndustrial", 2.0]]}, {"lat": 55.4053, "lon": -4.7615, "name": "Dunure", "items": [["X03_plastic_fragmentMed", 6.5], ["X01_plastic_packagingDomestic", 3.5], ["X02_plastic_stringDollyRope", 2.5]]}, {"lat": 56.3844, "lon": -5.5226, "name": "Gallanach Road", "items": [["X02_plastic_RopeStringCordSml", 46.5], ["X03_plastic_fragmentMed", 22.5], ["X02_plastic_RopeStringCordLrg", 20.5]]}, {"lat": 55.2416, "lon": -4.8604, "name": "Girvan Bay", "items": [["X01_plastic_packagingDomestic", 35.5], ["X03_plastic_fragmentMed", 23.0], ["X03_plastic_fragmentSml", 21.5]]}, {"lat": 56.5275, "lon": -6.7837, "name": "Gott Bay", "items": [["X02_plastic_fishingnetSml", 38.0], ["X02_plastic_RopeStringCordSml", 18.5], ["X01_plastic_packagingDomestic", 14.5]]}, {"lat": 55.6445, "lon": -5.4822, "name": "Grogport", "items": [["X01_plastic_packagingDomestic", 7.0], ["X03_plastic_fragmentSml", 5.0], ["X01_plastic_bottlesLid", 2.5]]}, {"lat": 55.931, "lon": -4.8768, "name": "Lunderston Bay", "items": [["X01_plastic_packagingDomestic", 165.5], ["X01_plastic_bottlesLid", 68.5], ["X03_plastic_fragmentMed", 55.0]]}, {"lat": 55.4238, "lon": -5.731, "name": "Machrihanish ", "items": [["X02_plastic_fishingnetSml", 10.0], ["X01_plastic_packagingDomestic", 4.5], ["X03_plastic_fragmentMed", 4.5]]}, {"lat": 56.55, "lon": -6.7593, "name": "Miodar", "items": [["X02_plastic_fishingnetSml", 5.5], ["X01_plastic_bottlesLid", 3.5], ["X02_plastic_fishingnetLrg", 2.0]]}, {"lat": 57.338, "lon": -6.1095, "name": "Ollach Bay", "items": [["X02_plastic_fishingnetSml", 19.0], ["X03_plastic_fragmentMed", 16.5], ["X02_plastic_RopeStringCordSml", 8.0]]}, {"lat": 55.6844, "lon": -6.5125, "name": "Portnahaven", "items": [["X03_plastic_fragmentSml", 45.0], ["X03_plastic_fragmentMed", 40.5], ["X02_plastic_fishingnetSml", 39.5]]}, {"lat": 57.284, "lon": -6.4569, "name": "Talisker Bay ", "items": [["X02_plastic_fishingnetSml", 185.0], ["X03_plastic_fragmentMed", 119.5], ["X02_plastic_RopeStringCordSml", 102.0]]}, {"lat": 56.5294, "lon": -6.228, "name": "The Black Beach", "items": [["X03_plastic_fragmentSml", 416.5], ["X02_plastic_fishingnetSml", 269.0], ["X03_plastic_fragmentMed", 193.0]]}, {"lat": 56.2892, "lon": -6.2188, "name": "Uisken Bay", "items": [["X03_plastic_fragmentMed", 16.0], ["X02_plastic_fishingnetSml", 12.5], ["X03_plastic_fragmentSml", 10.0]]}];
+data.forEach(function(d){
+  var lines = d.items.map(function(it){ return it[0] + ': ' + it[1]; }).join('<br>');
+  var html = '<b>' + d.name + '</b><br>' + (lines || 'No plastics recorded');
+  L.marker([d.lat, d.lon]).addTo(map).bindPopup(html, { maxWidth: 260 });
+});
+</script>
+</body>
+</html>

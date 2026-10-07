@@ -32,9 +32,9 @@ Git, GitHub, VS Code, Excel, PostgreSQL
 
 ## Projects
 
-### Large-Scale Time-Series Weather Data Analysis & Forecasting
-- Analysed large-scale real-world time-series data using Pandas, xarray, NumPy, and Matplotlib.
-- Built and evaluated regression models (polynomial and neural networks) to forecast long-term trends, achieving **R² values up to 0.88**.
+### Plastic Pollution Severity Analysis of Scottish Beaches
+- Analysed SCOTLAND SEAS beach-clean data across 27 Scottish beaches using Pandas and NumPy.
+- Built a weighted severity score (category severity × material multiplier) and interactive Leaflet maps to visualise coastal plastic pollution.
 
 ### User Behaviour & Demand Pattern Analysis (Group Project)
 - Analysed time-stamped usage data to identify daily demand patterns and peak usage periods for Voi bikes.
